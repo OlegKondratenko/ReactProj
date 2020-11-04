@@ -1,0 +1,15 @@
+.posts{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new_post{
+    width: 96%;
+  }
+  
+  .submit_button {
+    width: 30vh;
+    align-self: flex-end;
+    margin-top: 20px;
+    background-color: green;
+  }

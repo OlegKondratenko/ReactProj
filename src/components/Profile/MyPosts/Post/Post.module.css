@@ -1,0 +1,21 @@
+.wrap {
+    display: grid;
+    grid-template-columns: 1fr 6fr 3fr 2fr;
+    justify-items: start;
+    align-items: center;
+
+}
+
+.photo {
+    width: 10vh;
+    height: 10vh;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.text {
+    font-size: 1.5vw;
+    color: white;
+    margin-right: 2vw;
+}

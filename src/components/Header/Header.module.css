@@ -1,0 +1,10 @@
+.header {
+  background-color: #fff0f0;
+  grid-area: header;
+}
+.header img {
+  height: 60px;
+}
+.header p{
+  color: red;
+}
