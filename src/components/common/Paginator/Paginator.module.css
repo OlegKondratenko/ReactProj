@@ -1,0 +1,74 @@
+.wrapper {
+    height: auto;
+    vertical-align: baseline;
+}
+
+.paginationListItem {
+    cursor: pointer;
+    display: inline-block;
+    background: linear-gradient(lightgray 20%, gray 90%, lightgray 100%);
+    color: lightgray;
+    border: 1px solid gray;
+    border-radius: 10%;
+    width: 2.5vw;
+    height: 100%;
+    text-align: center;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    outline: none;
+    vertical-align: center;
+
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.active {
+    vertical-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    background: linear-gradient(gray 5%, lightgray 80%, black 100%);
+    color: lightgray;
+    border: 1px solid gray;
+    border-radius: 10%;
+    width: 2.5vw;
+    height: 100%;
+    text-align: center;
+    color: black;
+    font-family: Impact,
+        Haettenschweiler,
+        'Arial Narrow Bold',
+        sans-serif;
+    font-size: 1rem;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.navButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    height: 4vw;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    background: linear-gradient(lightslategrey 10%, darkslategrey 90%, lightgray 100%);
+    color: white;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.navButton:active {
+    background: linear-gradient(darkslategrey 10%, lightslategrey 90%, darkslategrey 100%);
+}

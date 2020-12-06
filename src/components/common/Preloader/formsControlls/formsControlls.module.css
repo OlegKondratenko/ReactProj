@@ -1,0 +1,13 @@
+.formControll.error textarea,
+.formControll.error input {
+    border: 2px solid red;
+}
+
+.formControll.error p,
+.formControll.error span {
+    color: red;
+}
+
+.formControll.error textarea:focus {
+    outline: none !important;
+}

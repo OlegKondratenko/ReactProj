@@ -25,3 +25,32 @@ a.active {
   color: yellow;
   background-color: silver;
 }
+
+.navigation {
+  margin-bottom: 30px;
+}
+
+.friend_wrap {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.friend {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-items: start;
+  justify-items: center;
+}
+
+.friend_logo {
+  border-radius: 50%;
+  width: 5vw;
+  height: 5vw;
+  object-fit: cover;
+}
+
+.friend_name {
+  align-self: start;
+  text-transform: capitalize;
+}

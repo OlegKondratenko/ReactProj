@@ -1,10 +1,17 @@
 .header {
   background-color: #fff0f0;
-  grid-area: header;
+  display: grid;
+  grid-template-columns: 6fr 6fr;
 }
+
 .header img {
   height: 60px;
 }
-.header p{
+
+.header p {
   color: red;
+}
+
+.loginBlock {
+  background-color: green;
 }

@@ -43,14 +43,15 @@
 */
 body {
   background-color: lightskyblue;
+  overflow-y: scroll;
 }
 
 .app-wrapper {
   display: grid;
   grid-template-areas: "header header"
     "sidebar content";
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
+  grid-template-columns: 3fr 9fr;
+  grid-template-rows: 3fr 100%;
   grid-gap: 10px;
 }
 
@@ -60,14 +61,12 @@ body {
 
 .sidebar {
   grid-area: sidebar;
-  min-height: calc(100vh - 70px);
-  height: 100%;
+
 }
 
 .content {
   grid-area: content;
-  min-height: calc(100vh - 70px);
-  height: 100%;
+
 }
 
 
